@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "machine-learn"
+version = "0.1.0"
+description = "Machine learn note."
+authors = ["Petrichor <997909544@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "machine_learn"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tensorflow = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
